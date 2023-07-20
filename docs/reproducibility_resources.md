@@ -42,7 +42,6 @@ Resources are listed by topic and in alphabetical order, not in order of recomme
 ## Project Organization
 
 + [Project Organization for Genomics - The Carpentries](https://datacarpentry.org/organization-genomics/)
-+ [protocols.io](https://www.protocols.io/)
 + [Ten Simple Rules for Writing Dockerfiles for Reproducible Data Science - _PLOS Computational Biology_](https://doi.org/10.1371/journal.pcbi.1008316)
 + [Ten Simple Rules for Writing and Sharing Computational Analyses in Jupyter Notebooks - _PLOS Computational Biology_](https://doi.org/10.1371/journal.pcbi.1007007)
 
@@ -61,3 +60,5 @@ Resources are listed by topic and in alphabetical order, not in order of recomme
 + [Ten Simple Rules for Reproducible Computational Research - _PLOS Computational Biology_](https://doi.org/10.1371/journal.pcbi.1003285)
 + [Toronto Data Workshop - Rohan Alexander](https://rohanalexander.com/toronto_data_workshop.html)
 + [Toronto Workshop on Reproducibility - Rohan Alexander](https://rohanalexander.com/reproducibility.html)
++ [protocols.io](https://www.protocols.io/)
+
