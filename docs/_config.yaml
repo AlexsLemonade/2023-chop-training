@@ -1,0 +1,16 @@
+title: "Data Lab Workshop"
+author: Childhood Cancer Data Lab
+email: training@ccdatalab.org
+twitter_username: CancerDataLab
+github_username:  AlexsLemonade
+# Theme and theme options
+theme: minima
+# Pages to appear in site header.
+header_home:
+  HOME.md
+header_pages:
+  - reproducibility_resources.md
+  - workshop-schedule.md
+
+
+
