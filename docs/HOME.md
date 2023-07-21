@@ -14,7 +14,6 @@ The Childhood Cancer Data Lab is an initiative of <b><a href="https://www.alexsl
 
 This workshop will introduce concepts in version control and project management with `git` and GitHub, with a focus on analytical code from the perspective of both code authors and reviewers.
 
-**Before the workshop**, please review basic `git` usage.
-We have compiled these [`git` resources](reproducibility_resources.md/#git) to help you get started.
-
+**The material in this workshop will assume participants have some practical experience using `git` and GitHub.**
+You may wish you review the [`git` resources](reproducibility_resources.md/#git) we've compiled to help you get started.
 To prepare for this workshop, please review our [Code of Conduct](code-of-conduct.md).
