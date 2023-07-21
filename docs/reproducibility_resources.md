@@ -22,10 +22,18 @@ Resources are listed by topic and in alphabetical order, not in order of recomme
 
 ## Git
 
-+ [Happy Git and GitHub for the UseR](https://happygitwithr.com/)
-+ [Ten Simple Rules for Taking Advantage of Git and GitHub - _PLOS Computational Biology_](https://doi.org/10.1371/journal.pcbi.1004947)
-+ [Version control with Git - The Carpentries](https://swcarpentry.github.io/git-novice/)
++ Introduction to `git`/GitHub using the command line
+	+ [Version control with Git - The Carpentries](https://swcarpentry.github.io/git-novice/)
+	+ [Learn Git with Bitbucket Cloud](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud)
+	+ [Getting started with GitHub](https://docs.github.com/en/get-started)
+		+ See sidebar within for all tutorials
+	+ [Happy Git and GitHub for the UseR](https://happygitwithr.com/)
+		+ This resources additionally introduces how to integration `git` with R/R Markdown workflows
 + [New to Git - Gitkraken](https://support.gitkraken.com/start-here/guide/)
+	+ Introduction to using the `GitKraken` GUI
++ [Introduction to Git in VS Code](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git)
+	+ Introduction to using `git` via the popular text editor Visual Studio COde
++ [Ten Simple Rules for Taking Advantage of Git and GitHub - _PLOS Computational Biology_](https://doi.org/10.1371/journal.pcbi.1004947) provides recommendations for effectively using `git` and GitHub workflows
 
 ## Code Review
 
