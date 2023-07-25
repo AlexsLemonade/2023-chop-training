@@ -29,6 +29,7 @@ Before the live demo, slides and/or some browser navigation will have introduced
   - This demonstrates discretizing commits into small bites
 - Finally, `push` which will fail since there is no remote branch; `git` gives us the command for success
 - In browser, see the pushed code and demonstrate opening a PR to `main`. PR should include the following components:
+  - Before writing any text, see how you can view the file changes and then make any code updates _before_ filing the PR (with any luck GitHub will demand a newline somewhere)
   - `Closes #<issue>`
   - Text explaining changes made
   - Specific things reviewer might check for
