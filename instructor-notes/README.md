@@ -1,2 +1,2 @@
 This directory contains instructor notes for live demonstrations during the workshop.
-Each markdown file contextualizes the before/after a given live demonstration and walks through the steps planned for live demonstration itself.
+Each markdown file contextualizes a given live demonstration and walks through the steps planned for live demonstration itself.
