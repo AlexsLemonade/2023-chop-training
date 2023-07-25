@@ -12,7 +12,7 @@ Before the live demo, slides and/or some browser navigation will have introduced
   - See past commits, releases and/or tags
   - `Blame` view (use [`scpca-nf/bin/post_process_sce.R`](https://github.com/AlexsLemonade/scpca-nf/blob/main/bin/post_process_sce.R), a script with three contributors)
 - Undoing or modifying changes
-  - `checkout`, `reset`, `revert`, `commit --amend`
+  - `checkout`, `reset`, `revert`, `commit --amend`, `restore --staged`
 
 ## Live demonstration
 
