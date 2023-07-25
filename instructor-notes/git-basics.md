@@ -17,7 +17,7 @@ Before the live demo, slides and/or some browser navigation will have introduced
 ## Live demonstration
 
 - In browser, navigate to https://github.com/AlexsLemonade/2023-chop-training-demo/issues to see an issue that we are going to demonstrate tackling
-- Locally, use terminal to navigate to repo and checkout a feature branch named `sjspielman/<issue #>-<feature description>`
+- Locally, use terminal to navigate to repo and checkout a feature branch named `<your user name>/<issue #>-<feature description>`
 - Perform first code change necessary to address issue
   - As part of this, open a different file and make "accidental" changes (for purposes of running `git checkout` soon)
 - Show `add/commit` (using `git commit -m`)
