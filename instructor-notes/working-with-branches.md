@@ -67,4 +67,4 @@ In the interest of time, can either run the script and add/commit the TSV file, 
 - In the interest of time, can either run the script and add/commit the TSV file, or move on.
 - Switch back to `main` and...
   - Run `git status` to see the commit remains (cherry pick will duplicate, which we don't always want!), but we'd like to remove it
-  - Run `git reset <last commit to keep>` to remove the commit that we'd like to not be reflected in this branch
+  - Run `git revert <hash>` to revert the commit that we'd like to not be reflected in this branch
