@@ -44,7 +44,7 @@ This demonstrates creating branches from the correct base (we are not stacking h
 
 * Stay in the (wrong) `<username>/<issue #>-adelie-penguins` branch
 * Write script for the next task (penguin island counts)
-* Run `git status` in anticipation of `add/commit``, and realize we're in the wrong branch.
+* Run `git status` in anticipation of `add/commit`, and realize we're in the wrong branch.
 This further demonstrates the benefit of running `git status` frequently.
 * Use `git stash` to stash the work
 * Enter branch 3: `git switch <username>/<issue #>-penguins-island-count`
