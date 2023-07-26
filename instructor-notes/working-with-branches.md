@@ -4,7 +4,7 @@
 
 Before the live demo, slides will introduce the follow concepts/commands:
 
-* Introduce feature branches conceptually and why we use them
+* Introduce feature branches conceptually and why we use them, including informative branch names
  * Note that more discussion of feature branches will come later in the afternoon during git workflow slides
 * Introduce `git checkout` (as in `git switch`) and `git branch`
 * Introduce `git stash` and `git cherry-pick`
