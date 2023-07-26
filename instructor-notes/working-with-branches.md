@@ -36,8 +36,7 @@ Note that stacking will not be part of this live demo.
   * Add script to perform calculation
   * Run the script to produce output TSV file
   * Now can remove `results/.gitkeep`
-* Return to `main` branch with `git switch` and enter Branch 2 (`<username>/<issue #>-adelie-penguins`).
-This demonstrates creating branches from the correct base (we are not stacking here).
+* Now, `git switch` to Branch 2 (`<username>/<issue #>-adelie-penguins`).
 * Two `add/commit/push` cycles with `git status` along the way (add script, add TSV)
 
 ### Scenario 2: Uncommitted work in the wrong branch: Penguin island counts
