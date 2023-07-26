@@ -27,8 +27,6 @@ Look around the repository to show trainees what we are working with in general;
   2. Add `ggsave()` to the script. Add/commit.
   3. Add `optparse` with the bins options to the script, and modify export file name. Add/commit.
   4. Run script so a plot is included now in `plots/`. Remove the `plots/.gitkeep`. Add/commit.
-- Perform first code change necessary to address issue
-  - As part of this, open a different file and make "accidental" changes (for purposes of running `git checkout` soon)
 - Finally, `push` which will fail since there is no remote branch; `git` gives us the command for success
 - In browser, see the pushed code and demonstrate opening a PR to `main`. PR should include the following components:
   - Before writing any text, see how you can view the file changes and then make any code updates _before_ filing the PR (with any luck GitHub will demand a newline somewhere)
