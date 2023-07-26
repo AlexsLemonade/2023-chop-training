@@ -48,7 +48,8 @@ Note that stacking will not be part of this live demo.
 This further demonstrates the benefit of running `git status` frequently.
 * Use `git stash` to stash the work
 * Enter branch 3: `git switch <username>/<issue #>-penguins-island-count`
-* Use `git stash apply` (`pop`?) to apply the first item in stash
+* Use `git stash apply` to apply the first item in stash
+  * Mention that `git stash pop` would have wholesale removed it from the stash but `apply` retains it
 * Add/commit the script.
 * In the interest of time, can either run the script and add/commit the TSV file, or move on.
 
