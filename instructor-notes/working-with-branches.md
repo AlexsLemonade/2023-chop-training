@@ -20,11 +20,12 @@ Note that stacking will not be part of this live demo.
 
 ## Live demonstration
 
-* Ensure I am up to date with `main` branch, and create 4 branches for use during demonstration (saves time later):
+* Ensure I am up to date with `main` branch, and create 4 branches for use during demonstration (saves time later and allows me to show `git branch -a` output):
   * Branch 1: `git branch <username>/<issue #>-2008-penguins`
   * Branch 2: `git branch <username>/<issue #>-adelie-penguins`
   * Branch 3: `git branch <username>/<issue #>-penguins-island-count`
   * Branch 4: `git branch <username>/<issue #>-penguins-species-count`
+
 * Briefly introduce what the live demo will show:
   * Successfully working with two branches, and note that success is achieved in part by lots of `git status`
   * Two common "gotchas" when working with multiple branches
