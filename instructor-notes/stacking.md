@@ -44,7 +44,7 @@ The second part of the demonstration is based around two similar two issues:
 * Explain again that stacking won't work well, _unless_ you want to have a review performed in your fork.
   * If you want the full project history including reviews to be present in the `upstream` repository, this will not meet your needs
 * Navigate via command line to the _fork_ of the repo, and ensure the `main` branch is up-to-date with the `upstream`'s `main` branch
-* Create and enter one branch off `main`, `<username>/<issue #>-scatterplot-function`
+* Create and enter branch off of `main`, `<username>/<issue #>-scatterplot-function`
 * Within this branch perform three `add/commit` (but _not_ push) cycles:
   * First, add the plotting function to the `utils.R` script
   * Second, use the function in the `model-penguins.R` script
@@ -52,6 +52,8 @@ The second part of the demonstration is based around two similar two issues:
 * View the `git log`, and identify which commits should be "stacked" on which: The latter two commits should be stacked on the first commit.
 * Return to `main` and create/enter a branch, `<username>/<issue #>-penguins-scatterplot`
 * `git cherry-pick` the latter two commits into this branch
-  * **TODO**: Unsure how to handle duplicate histories in this scenario..? Preferred approach for removing those last two commits from the `<username>/<issue #>-scatterplot-function` branch? Does one use a third branch to start off and then do _two_ cherry picks, then delete the branch you started on?
+  * **TODO**: Unsure how to handle duplicate histories?
+    * I could run a `git revert` in first branch (`<username>/<issue #>-scatterplot-function`)?
+    * I could introduce a third branch? Would entail 2 cherry picks and then delete the first branch.
 * Now we have two branches which are _sort of_ stacked, at least in the scope of their work.
 * Both branches can be filed to the `upstream` repo's `main` branch, with sufficient information in the two PRs to help reviewers understand how the PRs are related
