@@ -68,4 +68,5 @@ In the interest of time, can either run the script and add/commit the TSV file, 
 - In the interest of time, can either run the script and add/commit the TSV file, or move on.
 - Switch back to `main` and...
   - Run `git status` to see the commit remains (cherry pick will duplicate, which we don't always want!), but we'd like to remove it
-  - Run `git reset <last commit to keep>` to remove the commit that we'd like to not be in our local `main`
+  - Run `git reset --hard <last commit to keep>` to remove the commit that we'd like to not be in our local `main`.
+  Explain that `--hard` is going to really be _hard_, and may not always be what you want!
