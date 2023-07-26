@@ -58,7 +58,8 @@ In the interest of time, can either run the script and add/commit the TSV file, 
 
 - Switch back to `main` branch, but do _not_ switch into the penguin species counts branch
 - `add/commit/push` the script
-  - `git push` should fail due to branch protections, which causes us to "realize" we have worked in the wrong branch
+  - `git push` should fail due to branch protections, which causes us to "realize" we have worked in the wrong branch.
+  (But caution: If you are in a fork, you may need to set up your own protections!)
   Therefore, we need to cherry pick this commit into the proper branch
  - Identify the commit hash we'd like to cherry pick out of this branch using `git log` for help
 - Enter branch 4: `git switch <username>/<issue #>-penguins-species-count`
@@ -67,4 +68,4 @@ In the interest of time, can either run the script and add/commit the TSV file, 
 - In the interest of time, can either run the script and add/commit the TSV file, or move on.
 - Switch back to `main` and...
   - Run `git status` to see the commit remains (cherry pick will duplicate, which we don't always want!), but we'd like to remove it
-  - Run `git revert <hash>` to revert the commit that we'd like to not be reflected in this branch
+  - Run `git reset <last commit to keep>` to remove the commit that we'd like to not be in our local `main`
