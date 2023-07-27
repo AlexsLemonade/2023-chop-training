@@ -13,36 +13,32 @@ Note that stacking will not be part of this live demo.
 * Show a brief schematic of what we will do in the live demo to help orient trainees
   * We will have four branches working on complementary, _but different_ (no merge conflicts, please!), areas of the code base
   * Show issues that each branch is going to tackle
-   * Branch 1: Add script to export TSV of penguins sampled in 2008 to `results/`
-   * Branch 2: Add script to export TSV of only Adelie penguins to `results/`
-   * Branch 3: Add script to export TSV of number of penguins on each island to `results/`
-   * Branch 4: Add script to export TSV of number of penguins from each species to `results/`
+   * Branch 1 (`<username>/<issue #>-2008-penguins`): Add script to export TSV of penguins sampled in 2008 to `results/`
+   * Branch 2 (`<username>/<issue #>-adelie-penguins`): Add script to export TSV of only Adelie penguins to `results/`
+   * Branch 3 (`<username>/<issue #>-penguins-island-count`): Add script to export TSV of number of penguins on each island to `results/`
+     * This branch will have already been created before the workshop, to save time
+   * Branch 4 (`git branch <username>/<issue #>-penguins-species-count`): Add script to export TSV of number of penguins from each species to `results/`
+     * This branch will have already been created before the workshop, to save time
+  * Explain demostration scenarios:
+    * First, Successfully working with two branches, and note that success is achieved in part by lots of `git status`
+    * Second, two common "gotchas" when working with multiple branches
 
 ## Live demonstration
 
-* Ensure I am up to date with `main` branch, and create 4 branches for use during demonstration (saves time later and allows me to show `git branch -a` output):
-  * Branch 1: `git branch <username>/<issue #>-2008-penguins`
-  * Branch 2: `git branch <username>/<issue #>-adelie-penguins`
-  * Branch 3: `git branch <username>/<issue #>-penguins-island-count`
-  * Branch 4: `git branch <username>/<issue #>-penguins-species-count`
-
-* Briefly introduce what the live demo will show:
-  * Successfully working with two branches, and note that success is achieved in part by lots of `git status`
-  * Two common "gotchas" when working with multiple branches
-
 ### Scenario 1: Working successfully between two branches: 2008 and Adelie penguins
 
-* Use `git switch` to enter `<username>/<issue #>-2008-penguins`
+* Run `git switch -c <username>/<issue #>-2008-penguins` to create, switch to new branch
 * Three `add/commit/push` cycles with `git status` along the way:
   * Add script to perform calculation
   * Run the script to produce output TSV file
   * Now can remove `results/.gitkeep`
-* Now, `git switch` to Branch 2 (`<username>/<issue #>-adelie-penguins`).
+* Now, `git switch main`, and create and enter Branch 2 (`git switch -c <username>/<issue #>-adelie-penguins`).
+  * This demonstrates branching off the correct base
 * Two `add/commit/push` cycles with `git status` along the way (add script, add TSV)
 
 ### Scenario 2: Uncommitted work in the wrong branch: Penguin island counts
 
-* Stay in the (wrong) `<username>/<issue #>-adelie-penguins` branch
+* Do _not_ resturn to `main`, but stay in the (wrong) `<username>/<issue #>-adelie-penguins` branch
 * Write script for the next task (penguin island counts)
 * Run `git status` in anticipation of `add/commit`, and realize we're in the wrong branch.
 This further demonstrates the benefit of running `git status` frequently.
