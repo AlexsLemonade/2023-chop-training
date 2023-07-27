@@ -10,7 +10,7 @@ There are no new `git` commands that need to be introduced for this live demo.
 ### Part 1: How to stack branches
 
 This first part of the demonstration is based around two issues:
-* Issue 1: Write a `utils.R` script with a function that, given a data frame and two numeric variables, build a regression and returns the `broom::tidy()` output
+* Issue 1: Write a `utils.R` script with a function that, given a data frame and two numeric variables, builds a regression model and returns the `broom::tidy()` output
 * Issue 2: Write a script called `model-penguins.R` that sources `utils.R`, builds a model from penguin variables, and exports results to a TSV
 
 * First, run `git pull` in `main` to ensure I am synced up before I start new work
