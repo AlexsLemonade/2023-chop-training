@@ -15,6 +15,7 @@ Before beginning this live demo, navigate to GitHub and show the script to re-or
 
 In addition, slides will have introduced the concept of merge conflicts, when they might arise, and how to avoid them in the first place to the extent possible.
 Slides should also introduce a schematic of the live demo: We're going to have several branches off of the same base, each one modifying the same lines of code such that changes cannot be automatically merged.
+Further explain that in a real-life scenario, something like this might occur when three team members are each working in one of these branches, simultaneously modifying the same code.
 
 
 ## Live demonstration
