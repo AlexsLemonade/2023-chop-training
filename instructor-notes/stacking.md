@@ -51,10 +51,10 @@ The second part of the demonstration is based around two similar two issues:
   * Second, use the function in the `model-penguins.R` script
   * Third, run the script to export PNG to `plots/`
 * View the `git log`, and identify which commits should be "stacked" on which: The latter two commits should be "stacked" on the first commit.
-This means we need to divvy this code up into two separate branches.
+This means we need to divvy up this code up into two separate branches.
   * Emphasize that these small, focused commits allow us to cherry pick individual tasks for each issue, i.e., issue tasks are not muddled together in the same commit.
 * Return to `main` and create/enter first branch for cherry picking: `git switch -c <username>/<issue #>-scatterplot-function`
 * `git cherry-pick` the first commit into this branch
-* Return to `main` and create/enter second branch for cherry picking: `git switch -c <username>/<issue #>-penguins-scatterplot`
+* Return to `main` and create/enter second branch (`git switch -c <username>/<issue #>-penguins-scatterplot`), and cherry-pick the second two commits
 * Now we have two branches which are _sort of_ stacked (show with `git branch -a`), at least in the scope of their work, and a third which encompasses all work for posterity, which we don't delete just in case
 * The two issue-specific branches can be filed to the `upstream` repo's `main` branch, with sufficient context in the each PR to help reviewers understand how the PRs are related
