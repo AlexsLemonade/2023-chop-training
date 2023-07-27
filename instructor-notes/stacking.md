@@ -2,7 +2,7 @@
 
 ## Before demonstration
 
-Before the live demo, slides will have covered only the concept of git branch stacking, as well as why it's a challenging thing to do in forks.
+Before the live demo, slides will have covered only the concept of `git` branch stacking, as well as why it's a challenging thing to do in forks.
 There are no new `git` commands that need to be introduced for this live demo.
 
 ## Live demonstration
@@ -14,11 +14,11 @@ This first part of the demonstration is based around two issues:
 * Issue 2: Write a script called `model-penguins.R` that sources `utils.R`, builds a model from penguin variables, and exports results to a TSV
 
 * First, run `git pull` in `main` to ensure I am synced up before I start new work
-* Create and switch to the branch `<username>/<issue #>-utils-linear-model`
+* Create and switch to first branch: `git switch -c <username>/<issue #>-utils-linear-model`
 * Perform one `add/commit/push` (with `status` and `diff`) to create the `utils.R` script
   * For this first commit, _do not_ include documentation of this function
 * Open PR GitHub, but don't spend much time crafting a perfect PR as that is not the point of this demo
-  * In the background, co-teacher will leave a review that the code needs docs
+  * In the background, co-instructor will leave a review that the code needs docs
 * While still in `<username>/<issue #>-utils-linear-model`, create and switch to branch `<username>/<issue #>-build-penguin-model`
 * Perform one `add/commit/push` (with `status` and `diff`) to create the `model-penguins.R` script
 * File a PR in GitHub, setting the base branch to `<username>/<issue #>-utils-linear-model`
@@ -43,17 +43,18 @@ The second part of the demonstration is based around two similar two issues:
 
 * Explain again that stacking won't work well, _unless_ you want to have a review performed in your fork.
   * If you want the full project history including reviews to be present in the `upstream` repository, this will not meet your needs
-* Navigate via command line to the _fork_ of the repo, and ensure the `main` branch is up-to-date with the `upstream`'s `main` branch
-* Create and enter branch off of `main`, `<username>/<issue #>-scatterplot-function`
-* Within this branch perform three `add/commit` (but _not_ push) cycles:
+* Brief detour back to slides to show a schematic of what we are going to do in this demo & relationship among branches
+* Navigate via command line to the _fork_ of the repo, and ensure the `main` branch is up-to-date with `upstream/main`
+* Create and enter branch off of `main`: `<username>/<1st issue #>-<2nd issue #>-combined`
+* Perform three `add/commit` cycles (can `push` as well):
   * First, add the plotting function to the `utils.R` script
   * Second, use the function in the `model-penguins.R` script
   * Third, run the script to export PNG to `plots/`
-* View the `git log`, and identify which commits should be "stacked" on which: The latter two commits should be stacked on the first commit.
-* Return to `main` and create/enter a branch, `<username>/<issue #>-penguins-scatterplot`
-* `git cherry-pick` the latter two commits into this branch
-  * **TODO**: Unsure how to handle duplicate histories?
-    * I could run a `git revert` in first branch (`<username>/<issue #>-scatterplot-function`)?
-    * I could introduce a third branch? Would entail 2 cherry picks and then delete the first branch.
-* Now we have two branches which are _sort of_ stacked, at least in the scope of their work.
-* Both branches can be filed to the `upstream` repo's `main` branch, with sufficient information in the two PRs to help reviewers understand how the PRs are related
+* View the `git log`, and identify which commits should be "stacked" on which: The latter two commits should be "stacked" on the first commit.
+This means we need to divvy this code up into two separate branches.
+  * Emphasize that these small, focused commits allow us to cherry pick individual tasks for each issue, i.e., issue tasks are not muddled together in the same commit.
+* Return to `main` and create/enter first branch for cherry picking: `git switch -c <username>/<issue #>-scatterplot-function`
+* `git cherry-pick` the first commit into this branch
+* Return to `main` and create/enter second branch for cherry picking: `git switch -c <username>/<issue #>-penguins-scatterplot`
+* Now we have two branches which are _sort of_ stacked (show with `git branch -a`), at least in the scope of their work, and a third which encompasses all work for posterity, which we don't delete just in case
+* The two issue-specific branches can be filed to the `upstream` repo's `main` branch, with sufficient context in the each PR to help reviewers understand how the PRs are related
