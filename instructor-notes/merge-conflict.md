@@ -41,6 +41,7 @@ geom_histogram(bins = n_bins, color = "blue")
 ```
 * `add/commit/push` the change
 * File a quick 'n dirty PR, which co-instructor quickly approves, and merge the PR.
+  * Note that we are moving through this step quickly open for the purpose of the demonstration!
 
 ### Merge conflict 1: Resolve with VS Code
 
