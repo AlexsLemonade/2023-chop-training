@@ -14,10 +14,10 @@ Before the live demo, the co-instructor (i.e., instructor who is _not_ leading t
   * Show views of individual commits, and note that commit messages are helpful for review
 * Begin reviewing within GitHub, leaving the following _in-line_ comments for review:
   * In-line comment (not a suggestion)
-    * Need to set appropriate `ggplot` theme for the UMAP (no axis ticks, labels)
-  * In-line suggestions
-    * Need to set a seed (leave a suggestion)
     * Need to add a `sessionInfo()` chunk
+  * In-line suggestions
+    * Need to set a seed
+    * Need to set appropriate `ggplot` theme for the UMAP (no axis ticks, labels)
   * File-level comment
     * Need to include more markdown text contextualizing code chunks
 * Check out branch locally to run the code, during which a bug is caught because `{umap}` is not loaded into environment
