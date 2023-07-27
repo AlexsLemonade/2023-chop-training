@@ -48,7 +48,7 @@ geom_histogram(bins = n_bins, color = "blue")
 * Locally, checkout the `main` branch and sync up (`git switch main; git pull`)
 * Checkout the second branch: `git switch hist-mod-2`
   * Note that if we were to run `git merge main` _now_, we would avoid a merge conflict by keeping our `base` up to date before making changes in this new branch.
-  We're not going to do that for the purposes of demonstratation, but it's good to know.
+  We're not going to do that for the purposes of demonstration, but it's good to know.
 * Modify the histogram code to induce a conflict:
 ```r
 # original code
