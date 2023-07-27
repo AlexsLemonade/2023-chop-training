@@ -20,7 +20,7 @@ Note that stacking will not be part of this live demo.
    * Branch 4 (`git branch <username>/<issue #>-penguins-species-count`): Add script to export TSV of number of penguins from each species to `results/`
      * This branch will have already been created before the workshop, to save time
   * Explain demostration scenarios:
-    * First, Successfully working with two branches, and note that success is achieved in part by lots of `git status`
+    * First, successfully working with two branches, and note that success is achieved in part by lots of `git status`
     * Second, two common "gotchas" when working with multiple branches
 
 ## Live demonstration
@@ -38,7 +38,7 @@ Note that stacking will not be part of this live demo.
 
 ### Scenario 2: Uncommitted work in the wrong branch: Penguin island counts
 
-* Do _not_ resturn to `main`, but stay in the (wrong) `<username>/<issue #>-adelie-penguins` branch
+* Do _not_ return to `main`, but stay in the (wrong) `<username>/<issue #>-adelie-penguins` branch
 * Write script for the next task (penguin island counts)
 * Run `git status` in anticipation of `add/commit`, and realize we're in the wrong branch.
 This further demonstrates the benefit of running `git status` frequently.
