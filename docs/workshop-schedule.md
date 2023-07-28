@@ -3,7 +3,7 @@ title: Workshop Schedule
 nav_title: Schedule
 ---
 
-This workshop will take place from 12:00 - 5:00 PM EDT, Thursday August 9th and Friday August 10th, 2023.
+This workshop will take place from 12:00 - 5:00 PM EDT, Wednesday August 9th and Thursday August 10th, 2023.
 A tentative schedule for the workshop is given below.
 All workshop sessions will take place over Zoom.
 
