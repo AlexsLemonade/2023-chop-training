@@ -45,10 +45,6 @@ group_by(species)
 # new code
 group_by(species, island)
 ```
-* Push all code, and file a quick 'n dirty PR, which co-instructor quickly approves, and merge the PR.
-  * Note aloud that we are moving through this step quickly only for the purpose of the demonstration!
-
-
 * Second, modify `scripts/plot_penguins_histogram.R` as follows (ensure code changes are on the same line to induce later conflicts), and `add/commit` the change.
 ```r
 # original code
@@ -57,13 +53,12 @@ geom_histogram(bins = n_bins)
 # new code
 geom_histogram(bins = n_bins, color = "dodgerblue", fill = "gold")
 ```
-
-* Push all code, and file a quick 'n dirty PR, which co-instructor quickly approves, and merge the PR.
+* Push, and file a quick 'n dirty PR, which co-instructor quickly approves, and merge the PR.
   * Note aloud that we are moving through this step quickly only for the purpose of the demonstration!
 
 ### Merge conflict 1: Resolve with VS Code
 
-This merge conflict will focus on changes to `scripts/penguins-calculate-mass.R`.
+This merge conflict will focus on changes to `scripts/penguins_calculate_mass.R`.
 
 * Locally, checkout the `main` branch and sync up (`git switch main; git pull`)
 * Checkout the second branch: `git switch hist-mod-2`
@@ -84,7 +79,8 @@ group_by(species, island)
   * Explain that "theirs" = "Incoming change" and "ours" = "Current change"
   * Click the handy "Accept current change" text
 * Open the TSV file in VS Code and look at the conflict
-  * Explain that we could, for this simple example, choose ours/theirs, but it's easy to get confused which is which especially since it is not immediately obvious from the data itself which is which (same columns & types).
+  * Explain that we could, for this simple example, choose "ours"/"theirs", but it's easy to get confused since it is not immediately obvious from the data itself which is which (same columns & types).
+  * This confusion would be even greater for larger/more realistic data files.
 * Re-run the script whose conflict has been resolved to resolve the TSV conflict.
 A bonus benefit of this step is extra confirmation that you have indeed resolved the conflict; if `>>>>` etc. remains in your file, the code will not run.
 * Return to command line, run `git status`, `commit` the resolved conflict, and `push`.
@@ -94,7 +90,7 @@ A bonus benefit of this step is extra confirmation that you have indeed resolved
 
 ### Merge conflict 2: Resolve with GitKraken
 
-This merge conflict will focus on changes to `scripts/plot-penguins-histogram.R`.
+This merge conflict will focus on changes to `scripts/plot_penguins_histogram.R`.
 
 * Checkout the third branch: `git switch code-mod-3`
   * Remind everyone via `git log` that its base remains `main`  _before_ `code-mod-1` was merged in
@@ -113,8 +109,8 @@ This approach shows a different way that one can discover a merge conflict, v.s.
   * Open the repository in GitKraken and show the conflict view
   * Explain that "theirs" is on the top left, and "ours" is on the top right
   * Fix the conflict by ensuring only "ours" is in the output frame below
-  * Note that _could_ commit to resolve the merge conflict within GitKraken directly, but first we need to re-run the fixed script to update the PNG with the latest code!
-  Re-run to fix PNG, and conclude the merge.
+  * Note that we can commit to resolve the merge conflict within GitKraken directly, but first we need to re-run the fixed script to update the PNG with the latest code, and ensure that is part of the resolution.
+* Re-run script to fix PNG, and now we can `commit` the conflict fix and conclude the merge.
 
 ### Final punchlines of demo
 
