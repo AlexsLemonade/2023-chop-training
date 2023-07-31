@@ -15,9 +15,9 @@ Note that stacking will not be part of this live demo.
   * Show issues that each branch is going to tackle
    * Branch 1 (`<username>/<issue #>-2008-penguins`): Add script to export TSV of penguins sampled in 2008 to `results/`
    * Branch 2 (`<username>/<issue #>-adelie-penguins`): Add script to export TSV of only Adelie penguins to `results/`
-   * Branch 3 (`<username>/<issue #>-penguins-island-count`): Add script to export TSV of number of penguins on each island to `results/`
+   * Branch 3 (`<username>/<issue #>-penguins-species-count`): Add script to export TSV of number of each species of penguin to `results/`
      * This branch will have already been created before the workshop, to save time
-   * Branch 4 (`git branch <username>/<issue #>-penguins-species-count`): Add script to export TSV of number of penguins from each species to `results/`
+   * Branch 4 (`git branch <username>/<issue #>-penguins-species-mass`): Add script to export TSV of the mean mass of each penguins species to `results/`
      * This branch will have already been created before the workshop, to save time
   * Explain demostration scenarios:
     * First, successfully working with two branches, and note that success is achieved in part by lots of `git status`
@@ -36,14 +36,14 @@ Note that stacking will not be part of this live demo.
   * This demonstrates branching off the correct base
 * Two `add/commit/push` cycles with `git status` along the way (add script, add TSV)
 
-### Scenario 2: Uncommitted work in the wrong branch: Penguin island counts
+### Scenario 2: Uncommitted work in the wrong branch: Penguin species counts
 
 * Do _not_ return to `main`, but stay in the (wrong) `<username>/<issue #>-adelie-penguins` branch
-* Write script for the next task (penguin island counts)
+* Write script for the next task (penguin species counts)
 * Run `git status` in anticipation of `add/commit`, and realize we're in the wrong branch.
 This further demonstrates the benefit of running `git status` frequently.
 * Use `git stash` to stash the work
-* Enter branch 3: `git switch <username>/<issue #>-penguins-island-count`
+* Enter branch 3: `git switch <username>/<issue #>-penguins-species-count`
 * Use `git stash apply` to apply the first item in stash
   * Mention that `git stash pop` would have wholesale removed it from the stash but `apply` retains it
 * Add/commit the script.
@@ -53,13 +53,13 @@ This further demonstrates the benefit of running `git status` frequently.
 ### Scenario 3: Committed work in the wrong branch: Penguin species counts
 > Bonus: Experience the benefits of branch protection rules
 
-* Switch back to `main` branch, but do _not_ switch into the penguin species counts branch
+* Switch back to `main` branch, but do _not_ switch into the `<username>/<issue #>-penguins-species-mass` branch
 * `add/commit/push` the script
   * `git push` should fail due to branch protections, which causes us to "realize" we have worked in the wrong branch.
   (But caution: If you are in a fork, you may need to set up your own protections!)
   Therefore, we need to cherry pick this commit into the proper branch
  * Identify the commit hash we'd like to cherry pick out of this branch using `git log` for help
-* Enter branch 4: `git switch <username>/<issue #>-penguins-species-count`
+* Enter branch 4: `git switch <username>/<issue #>-penguins-species-mass`
 * `git cherry-pick <hash>`
 * Behold the updated `git status` in this branch.
 * In the interest of time, can either run the script and add/commit the TSV file, or move on.
