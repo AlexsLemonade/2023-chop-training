@@ -10,7 +10,7 @@ The instructor leading the live demo will need to have these softwares installed
 
 ## Before demonstration
 
-This live demo will build two pieces of code:
+This live demo will build on two pieces of code:
 
 - The script `scripts/plot_penguins_histogram.R` written as part of the [`git` basics](./git-basics.md) live demo, which plots and exports a barebones histogram of `palmerpenguins::penguins` bill depth.
 - The script `scripts/penguins_calculate_mass.R` written as part of the [working with branches](./working-with-branches.md) live demo, which calculates mean `palmerpenguins::penguins` mass across species.
