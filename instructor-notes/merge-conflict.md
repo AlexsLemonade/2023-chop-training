@@ -13,7 +13,7 @@ The instructor leading the live demo will need to have these softwares installed
 This live demo will build two pieces of code:
 
 - The script `scripts/plot_penguins_histogram.R` written as part of the [`git` basics](./git-basics.md) live demo, which plots and exports a barebones histogram of `palmerpenguins::penguins` bill depth.
-- The script `scripts/penguins-calculate-mass.R` written as part of the [working with branches](./working-with-branches.md) live demo, which calculates mean `palmerpenguins::penguins` mass across species.
+- The script `scripts/penguins_calculate_mass.R` written as part of the [working with branches](./working-with-branches.md) live demo, which calculates mean `palmerpenguins::penguins` mass across species.
 
 Before beginning this live demo, navigate to GitHub and show the script to re-orient trainees to the relevant code.
 
@@ -43,7 +43,7 @@ First we'll need to modify lines in each of the two relevant scripts, which will
 group_by(species)
 
 # new code
-group_by(island, species)
+group_by(species, island)
 ```
 * Push all code, and file a quick 'n dirty PR, which co-instructor quickly approves, and merge the PR.
   * Note aloud that we are moving through this step quickly only for the purpose of the demonstration!
@@ -63,7 +63,7 @@ geom_histogram(bins = n_bins, color = "dodgerblue", fill = "gold")
 
 ### Merge conflict 1: Resolve with VS Code
 
-This merge conflict will focus on changes to `scripts/plot-penguins-histogram.R`.
+This merge conflict will focus on changes to `scripts/penguins-calculate-mass.R`.
 
 * Locally, checkout the `main` branch and sync up (`git switch main; git pull`)
 * Checkout the second branch: `git switch hist-mod-2`
@@ -85,37 +85,42 @@ group_by(species, island)
   * Click the handy "Accept current change" text
 * Open the TSV file in VS Code and look at the conflict
   * Explain that we could, for this simple example, choose ours/theirs, but it's easy to get confused which is which especially since it is not immediately obvious from the data itself which is which (same columns & types).
-  * Therefore, we should re-run the script (and do so here!) whose conflict has been resolved to resolve the TSV conflict.
-* Return to command line, run `git status`, `commit` the resolved conflict, and `push`
+* Re-run the script whose conflict has been resolved to resolve the TSV conflict.
+A bonus benefit of this step is extra confirmation that you have indeed resolved the conflict; if `>>>>` etc. remains in your file, the code will not run.
+* Return to command line, run `git status`, `commit` the resolved conflict, and `push`.
 * In browser, refresh the PR and see that there is no longer a merge conflict message.
   * In the interest of time, this PR does not need to be approved/merged.
 
 
 ### Merge conflict 2: Resolve with GitKraken
 
-This merge conflict will focus on changes to `scripts/penguins-calculate-mass.R`.
+This merge conflict will focus on changes to `scripts/plot-penguins-histogram.R`.
 
-
-* Checkout the third branch: `git switch hist-mod-3`
-  * Remind everyone via `git log` that its base remains `main`, _before_ `hist-mod-1` was merged in
-* Modify the histogram code to induce a conflict:
+* Checkout the third branch: `git switch code-mod-3`
+  * Remind everyone via `git log` that its base remains `main`  _before_ `code-mod-1` was merged in
+* Modify the script to induce a conflict, run it to produce an updated PNG, and `add/commit` all changes (`push` is less critical for this demo; doesn't matter if that is skipped)
 ```r
 # original code
 geom_histogram(bins = n_bins)
 
 # new code
-geom_histogram(bins = n_bins, linewidth = 1.5, color = "cadetblue")
+geom_histogram(bins = n_bins, color = "deepskyblue1", fill = "olivedrab3")
 ```
-* `add/commit/push` the change (`push` is less critical for this demo; doesn't matter if that is skipped)
 * Run `git merge main` via command line, which will inform us we have a merge conflict.
-This approach shows a different way that one can discover a merge conflict, v.s. the last example where opening a PR identified the conflict
-* Resolve the conflict in GitKraken.
+This approach shows a different way that one can discover a merge conflict, v.s. the last example when it was discovered by filing a PR.
+* Note that we cannot directly compare "ours"/"theirs" in a PNG, so the only way to resolve that conflict is by fixing the code and re-generating the PNG.
+* Resolve the R script conflict in GitKraken.
   * Open the repository in GitKraken and show the conflict view
   * Explain that "theirs" is on the top left, and "ours" is on the top right
   * Fix the conflict by ensuring only "ours" is in the output frame below
-  * Commit to resolve the merge conflict within GitKraken direcly
-* Viola!
+  * Note that _could_ commit to resolve the merge conflict within GitKraken directly, but first we need to re-run the fixed script to update the PNG with the latest code!
+  Re-run to fix PNG, and conclude the merge.
 
+### Final punchlines of demo
+
+* Sync up with your base branch sooner rather than later
+* Don't let branches/PRs get too stale, as they will get increasingly out of sync
+* Coordinate with your team to reduce odds of working on the same lines of code at once
 
 
 
