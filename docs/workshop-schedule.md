@@ -21,7 +21,7 @@ All workshop sessions will take place over Zoom.
 | 2:30 PM         | _Break_                                                |              |
 | 2:45 PM         | Introduction to analytical code review, Part 1         | Jaclyn       |
 |                 | Slides:                                                |              |
-| 3:15 PM         | Resolving merge conflicts                              | Stephanie     |
+| 3:15 PM         | Resolving merge conflicts                              | Stephanie    |
 | 3:45 PM         | _Break_                                                |              |
 | 4:00 PM         | `git` workflows and when to use them                   | Jaclyn       |
 |                 | Slides:                                                |              |
@@ -30,19 +30,19 @@ All workshop sessions will take place over Zoom.
 | **2023-08-10**  |  **Analytical code review in GitHub**                  |              |
 | 12:00 PM        | Introduction to analytical code review, Part 2         | Jaclyn       |
 |                 | Slides:                                                |              |
-| 12:45 PM        | Shared author and reviewer responsibilities            | Jaclyn       |
+| 12:30 PM        | Shared author and reviewer responsibilities            | Jaclyn       |
 |                 | Slides:                                                |              |
-| 1:30 PM         | _Break_                                                |              |
-| 1:45 PM         | Systems for facilitating code review                   | Jaclyn       |
+| 1:00 PM         | _Break_                                                |              |
+| 1:15 PM         | Systems for facilitating code review                   | Jaclyn       |
 |                 | Slides:                                                |              |
-| 2:15 PM         | Pull request author responsibilities                   | Jaclyn       |
+| 1:45 PM         | Pull request author responsibilities                   | Jaclyn       |
 |                 | Slides:                                                |              |
-| 2:45 PM         | _Break_                                                |              |
-| 3:00 PM         | Stacking branches and using forks                      | Stephanie    |
+| 2:15 PM         | _Break_                                                |              |
+| 2:30 PM         | Stacking branches and using forks                      | Stephanie    |
 |                 | Slides:                                                |              |
-| 3:30 PM         | _Break_                                                | Jaclyn       |
-| 3:30 PM         | Pull request reviewer responsibilities                 |              |
+| 3:15 PM         | Pull request reviewer responsibilities                 |              |
 |                 | Slides:                                                |              |
-| 4:15 PM         | Performing and responding to code review               | Stephanie    |
+| 3:30 PM         | _Break_                                                |              |
+| 3:45 PM         | Performing and responding to code review               | Stephanie    |
 |                 | Slides:                                                |              |
 
