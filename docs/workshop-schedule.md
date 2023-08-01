@@ -8,26 +8,41 @@ A tentative schedule for the workshop is given below.
 All workshop sessions will take place over Zoom.
 
 
-| Time      | Topic                                                        |
-|===========|==============================================================|
-| **2023-08-09**  | **Using `git` and GitHub for projects**                |
-| 12:00 PM        | Welcome and Introductions                              |
-| 12:30 PM        | Introduction to `git`, Part 1                          |
-| 1:30 PM         | _Break_                                                |
-| 1:45 PM         | Introduction to `git`, Part 2: Working with branches   |
-| 2:30 PM         | _Break_                                                |
-| 2:45 PM         | `git` workflows and when to use them                   |
-| 3:15 PM         | Introduction to analytical code review, Part 1         |
-| 3:45 PM         | _Break_                                                |
-| 4:00 PM         | Tracking and planning work with GitHub                 |
-| **2023-08-10**  |  **Analytical code review in GitHub**                  |
-| 12:00 PM        | Introduction to analytical code review, Part 2         |
-| 12:45 PM        | Shared author and reviewer responsibilities            |
-| 1:30 PM         | _Break_                                                |
-| 1:45 PM         | Systems for facilitating code review                   |
-| 2:30 PM         | Pull request author resposibilities                    |
-| 3:00 PM         | _Break_                                                |
-| 3:15 PM         | Pull request reviewer resposibilities                  |
-| 3:45 PM         | From initial review to merge                           | <!-- can break during this last bit as needed, or just push through -->
+| Time      | Topic                                                        | Instructor   |
+|===========|==============================================================|==============|
+| **2023-08-09**  | **Using `git` and GitHub for projects**                |              |
+| 12:00 PM        | Welcome and Introductions                              | Jaclyn       |
+|                 | Slides:                                                |              |
+| 12:30 PM        | Introduction to `git`, Part 1                          | Stephanie    |
+|                 | Slides:                                                |              |
+| 1:30 PM         | _Break_                                                |              |
+| 1:45 PM         | Introduction to `git`, Part 2: Working with branches   | Stephanie    |
+|                 | Slides:                                                |              |
+| 2:30 PM         | _Break_                                                |              |
+| 2:45 PM         | Introduction to analytical code review, Part 1         | Jaclyn       |
+|                 | Slides:                                                |              |
+| 3:15 PM         | Resolving merge conflicts                              | Stephanie     |
+| 3:45 PM         | _Break_                                                |              |
+| 4:00 PM         | `git` workflows and when to use them                   | Jaclyn       |
+|                 | Slides:                                                |              |
+| 4:30 PM         | Tracking and planning work with GitHub                 | Jaclyn       |
+|                 | Slides:                                                |              |
+| **2023-08-10**  |  **Analytical code review in GitHub**                  |              |
+| 12:00 PM        | Introduction to analytical code review, Part 2         | Jaclyn       |
+|                 | Slides:                                                |              |
+| 12:45 PM        | Shared author and reviewer responsibilities            | Jaclyn       |
+|                 | Slides:                                                |              |
+| 1:30 PM         | _Break_                                                |              |
+| 1:45 PM         | Systems for facilitating code review                   | Jaclyn       |
+|                 | Slides:                                                |              |
+| 2:15 PM         | Pull request author responsibilities                   | Jaclyn       |
+|                 | Slides:                                                |              |
+| 2:45 PM         | _Break_                                                |              |
+| 3:00 PM         | Stacking branches and using forks                      | Stephanie    |
+|                 | Slides:                                                |              |
+| 3:30 PM         | _Break_                                                | Jaclyn       |
+| 3:30 PM         | Pull request reviewer responsibilities                 |              |
+|                 | Slides:                                                |              |
+| 4:15 PM         | Performing and responding to code review               | Stephanie    |
+|                 | Slides:                                                |              |
 
-<!-- may end a bit early on day 2 with time for Q/A?-->
