@@ -4,8 +4,12 @@
 
 Before the live demo, slides will introduce the follow concepts/commands:
 
+* Exploring project history in GitHub using `scpca-nf`
+  * See past commits, releases and/or tags
+  * `Blame` view (use [`scpca-nf/bin/post_process_sce.R`](https://github.com/AlexsLemonade/scpca-nf/blob/main/bin/post_process_sce.R), a script with three contributors)
 * Introduce feature branches conceptually and why we use them, including informative branch names
   * Note that more discussion of feature branches will come later in the afternoon during git workflow slides
+* Introduce `git merge` and (why not to use) `git rebase`
 * Introduce `git checkout` (as in `git switch`) and `git branch`
 * Introduce `git stash` and `git cherry-pick`
 * Introduce concept of stacking, which we will come back to in day 2
@@ -50,7 +54,7 @@ This further demonstrates the benefit of running `git status` frequently.
 * In the interest of time, can either run the script and add/commit the TSV file, or move on.
 
 
-### Scenario 3: Committed work in the wrong branch: Penguin species counts
+### Scenario 3: Committed work in the wrong branch: Penguin species mean mass
 > Bonus: Experience the benefits of branch protection rules
 
 * Switch back to `main` branch, but do _not_ switch into the `<username>/<issue #>-penguins-species-mass` branch
