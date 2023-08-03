@@ -8,9 +8,6 @@ Before the live demo, slides and/or some browser navigation will have introduced
 - `add/commit/push` (including `commit` flavors) `status`, `diff`
 - `.gitignore` and `.gitkeep` files
 - _Briefly_, the concept of feature branches
-- Exploring project history in GitHub using `scpca-nf`
-  - See past commits, releases and/or tags
-  - `Blame` view (use [`scpca-nf/bin/post_process_sce.R`](https://github.com/AlexsLemonade/scpca-nf/blob/main/bin/post_process_sce.R), a script with three contributors)
 - Undoing or modifying changes
   - `checkout`/`restore (--staged)`, `reset`, `revert`, `commit --amend`
 
