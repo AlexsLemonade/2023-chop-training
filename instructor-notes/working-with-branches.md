@@ -54,7 +54,7 @@ This further demonstrates the benefit of running `git status` frequently.
 * In the interest of time, can either run the script and add/commit the TSV file, or move on.
 
 
-### Scenario 3: Committed work in the wrong branch: Penguin species counts
+### Scenario 3: Committed work in the wrong branch: Penguin species mean mass
 > Bonus: Experience the benefits of branch protection rules
 
 * Switch back to `main` branch, but do _not_ switch into the `<username>/<issue #>-penguins-species-mass` branch
