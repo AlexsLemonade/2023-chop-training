@@ -34,7 +34,7 @@ All workshop sessions will take place over Zoom.
 |                 | Slides:                                                |              |
 | 1:00 PM         | _Break_                                                |              |
 | 1:15 PM         | Systems for facilitating code review                   | Jaclyn       |
-|                 | Slides:                                                |              |
+|                 | Slides: [Systems approaches for facilitating PR review](../slides/08 - Systems approaches for facilitating PR review.pdf)                                                |              |
 | 1:45 PM         | Pull request author responsibilities                   | Jaclyn       |
 |                 | Slides:                                                |              |
 | 2:15 PM         | _Break_                                                |              |
