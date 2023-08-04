@@ -31,7 +31,7 @@ All workshop sessions will take place over Zoom.
 | 12:00 PM        | Introduction to analytical code review, Part 2         | Jaclyn       |
 |                 | Slides:                                                |              |
 | 12:30 PM        | Shared author and reviewer responsibilities            | Jaclyn       |
-|                 | Slides:                                                |              |
+|                 | Slides: [Shared responsibilities between authors and reviewers](../slides/07 - Shared responsibilities between authors and reviewers.pdf)                                                |              |
 | 1:00 PM         | _Break_                                                |              |
 | 1:15 PM         | Systems for facilitating code review                   | Jaclyn       |
 |                 | Slides:                                                |              |
