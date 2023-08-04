@@ -29,7 +29,7 @@ All workshop sessions will take place over Zoom.
 |                 | Slides:                                                |              |
 | **2023-08-10**  |  **Analytical code review in GitHub**                  |              |
 | 12:00 PM        | Introduction to analytical code review, Part 2         | Jaclyn       |
-|                 | Slides:                                                |              |
+|                 | Slides: [Analytical code review overview](../slides/06 - Analytical Code Review Overview.pdf)                                              |              |
 | 12:30 PM        | Shared author and reviewer responsibilities            | Jaclyn       |
 |                 | Slides:                                                |              |
 | 1:00 PM         | _Break_                                                |              |
