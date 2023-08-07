@@ -20,11 +20,11 @@ All workshop sessions will take place over Zoom.
 |                 | Slides:                                                |              |
 | 2:30 PM         | _Break_                                                |              |
 | 2:45 PM         | Introduction to analytical code review, Part 1         | Jaclyn       |
-|                 | Slides:                                                |              |
+|                 | Slides: [Pull request basics](../slides/03 - Pull Request Basics.pdf)                                               |              |
 | 3:15 PM         | Resolving merge conflicts                              | Stephanie    |
 | 3:45 PM         | _Break_                                                |              |
 | 4:00 PM         | `git` workflows and when to use them                   | Jaclyn       |
-|                 | Slides:                                                |              |
+|                 | Slides: [Git workflows](../slides/04 - Git Workflows.pdf)     
 | 4:30 PM         | Planning and tracking work with GitHub                 | Jaclyn       |
 |                 | Slides: [Planning and tracking work with GitHub](../slides/05 - Planning and tracking work with GitHub.pdf)                                                |              |
 | **2023-08-10**  |  **Analytical code review in GitHub**                  |              |
