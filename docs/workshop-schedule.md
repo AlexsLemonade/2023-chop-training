@@ -24,7 +24,7 @@ All workshop sessions will take place over Zoom.
 | 3:15 PM         | Resolving merge conflicts                              | Stephanie    |
 | 3:45 PM         | _Break_                                                |              |
 | 4:00 PM         | `git` workflows and when to use them                   | Jaclyn       |
-|                 | Slides: [Git workflows](../slides/04 - Git Workflows.pdf)     
+|                 | Slides: [Git workflows](../slides/04 - Git Workflows.pdf)     |       |
 | 4:30 PM         | Planning and tracking work with GitHub                 | Jaclyn       |
 |                 | Slides: [Planning and tracking work with GitHub](../slides/05 - Planning and tracking work with GitHub.pdf)                                                |              |
 | **2023-08-10**  |  **Analytical code review in GitHub**                  |              |
