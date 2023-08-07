@@ -20,28 +20,28 @@ All workshop sessions will take place over Zoom.
 |                 | Slides: [Introduction to Git, Part 2](slides/02 - Introduction to git, part 2.pdf)  |           |
 | 2:30 PM         | _Break_                                                |              |
 | 2:45 PM         | Introduction to analytical code review, Part 1         | Jaclyn       |
-|                 | Slides:                                                |              |
+|                 | Slides: [Pull request basics](../slides/03 - Pull Request Basics.pdf)                                               |              |
 | 3:15 PM         | Resolving merge conflicts                              | Stephanie    |
 | 3:45 PM         | _Break_                                                |              |
 | 4:00 PM         | Git workflows and when to use them                   | Jaclyn       |
-|                 | Slides:                                                |              |
-| 4:30 PM         | Tracking and planning work with GitHub                 | Jaclyn       |
-|                 | Slides:                                                |              |
+|                 | Slides: [Git workflows](../slides/04 - Git Workflows.pdf)     |       |
+| 4:30 PM         | Planning and tracking work with GitHub                 | Jaclyn       |
+|                 | Slides: [Planning and tracking work with GitHub](../slides/05 - Planning and tracking work with GitHub.pdf)                                                |              |
 | **2023-08-10**  |  **Analytical code review in GitHub**                  |              |
 | 12:00 PM        | Introduction to analytical code review, Part 2         | Jaclyn       |
-|                 | Slides:                                                |              |
+|                 | Slides: [Analytical code review overview](../slides/06 - Analytical Code Review Overview.pdf)                                              |              |
 | 12:30 PM        | Shared author and reviewer responsibilities            | Jaclyn       |
-|                 | Slides:                                                |              |
+|                 | Slides: [Shared responsibilities between authors and reviewers](../slides/07 - Shared responsibilities between authors and reviewers.pdf)                                                |              |
 | 1:00 PM         | _Break_                                                |              |
 | 1:15 PM         | Systems for facilitating code review                   | Jaclyn       |
-|                 | Slides:                                                |              |
+|                 | Slides: [Systems approaches for facilitating PR review](../slides/08 - Systems approaches for facilitating PR review.pdf)                                                |              |
 | 1:45 PM         | Pull request author responsibilities                   | Jaclyn       |
-|                 | Slides:                                                |              |
+|                 | Slides: [Pull request author responsibilities](../slides/09 - Pull request author responsibilities.pdf)                                                |              |
 | 2:15 PM         | _Break_                                                |              |
 | 2:30 PM         | Stacking branches and using forks                      | Stephanie    |
 |                 | Slides:                                                |              |
 | 3:15 PM         | Pull request reviewer responsibilities                 | Jaclyn       |
-|                 | Slides:                                                |              |
+|                 | Slides: [Pull request reviewer responsibilities](../slides/10 - Pull request reviewer responsibilities.pdf)                                               |              |
 | 3:30 PM         | _Break_                                                |              |
 | 3:45 PM         | Performing and responding to code review               | Stephanie    |
 |                 | Slides:                                                |              |
