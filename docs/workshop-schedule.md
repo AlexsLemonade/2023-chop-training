@@ -17,7 +17,7 @@ All workshop sessions will take place over Zoom.
 |                 | Slides: [Introduction to Git, Part 1](slides/01 - Introduction to git, part 1.pdf)  |           |
 | 1:30 PM         | _Break_                                                |              |
 | 1:45 PM         | Introduction to Git, Part 2: Working with branches   | Stephanie    |
-|                 | Slides:                                                |              |
+|                 | Slides: [Introduction to Git, Part 2](slides/02 - Introduction to git, part 2.pdf)  |           |
 | 2:30 PM         | _Break_                                                |              |
 | 2:45 PM         | Introduction to analytical code review, Part 1         | Jaclyn       |
 |                 | Slides: [Pull request basics](../slides/03 - Pull Request Basics.pdf)                                               |              |
