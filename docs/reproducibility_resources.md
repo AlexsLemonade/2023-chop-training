@@ -17,7 +17,7 @@ Resources are listed by topic and in alphabetical order, not in order of recomme
 - [Git](#git)
 - [Code Review](#code-review)
 - [Project Organization](#project-organization)
-- [Resources in Reproducible Computing](#comprehensive-resources-in-reproducible-computing)
+- [Resources in Reproducible Computing](#resources-in-reproducible-computing)
 
 
 ## Git
