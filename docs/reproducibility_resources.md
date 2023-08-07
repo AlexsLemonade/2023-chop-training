@@ -66,7 +66,5 @@ Resources are listed by topic and in alphabetical order, not in order of recomme
 + [Reproducibility Standards for Machine Learning in the Life Sciences - nature](https://www.nature.com/articles/s41592-021-01256-7)
 + [Ten Simple Rules for Quick and Dirty Scientific Programming - _PLOS Computational Biology_](https://doi.org/10.1371/journal.pcbi.1008549)
 + [Ten Simple Rules for Reproducible Computational Research - _PLOS Computational Biology_](https://doi.org/10.1371/journal.pcbi.1003285)
-+ [Toronto Data Workshop - Rohan Alexander](https://rohanalexander.com/toronto_data_workshop.html)
-+ [Toronto Workshop on Reproducibility - Rohan Alexander](https://rohanalexander.com/reproducibility.html)
 + [protocols.io](https://www.protocols.io/)
 
