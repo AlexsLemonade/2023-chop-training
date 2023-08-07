@@ -3,7 +3,7 @@
 
 ## Before demonstration
 
-Before the live demo, the co-instructor (i.e., instructor who is _not_ leading the demo) will have opened a pull request that modifies and re-renders an existing notebook (`explore-spotify-variation.Rmd`)[https://github.com/AlexsLemonade/2023-chop-training-demo/blob/5ea683d571d89ceb19572359dd9c633f6f247987/scripts/explore-spotify-variation.Rmd].
+Before the live demo, the co-instructor (i.e., instructor who is _not_ leading the demo) will have opened a pull request that modifies and re-renders an existing notebook [`explore-spotify-variation.Rmd`](https://github.com/AlexsLemonade/2023-chop-training-demo/blob/5ea683d571d89ceb19572359dd9c633f6f247987/scripts/explore-spotify-variation.Rmd).
 
 
 ## Live demonstration
@@ -20,8 +20,10 @@ Before the live demo, the co-instructor (i.e., instructor who is _not_ leading t
     * Need to set appropriate `ggplot` theme for the UMAP (no axis ticks, labels)
   * File-level comment
     * Need to include more markdown text contextualizing code chunks
-* Check out branch locally to run the code, during which a bug is caught because `{umap}` is not loaded into environment
+* Check out branch locally to run the code, during which package bugs are caught:
+  * `{umap}` was not loaded into environment
+  * `{patchwork}` was used, but the reviewer does not have the package installed
 * Leave overall review starting with some form of "Thanks for doing this!"
   * Overall review should include comment that `{umap}` package needs to be in the environment, either via `library()` or using `::`
-  * Also suggest that author should open up a separate issue to use `{renv}` in the project to ensure environment consistency
+  * Also suggest that author should open up a separate issue to use `{renv}` in the project to ensure environment consistency given that reviewer did not have `{patchwork}` dependency
 * Publish review as "Request changes"
