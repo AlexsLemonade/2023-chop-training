@@ -12,7 +12,7 @@ All workshop sessions will take place over Zoom.
 |===========|==============================================================|==============|
 | **2023-08-09**  | **Using `git` and GitHub for projects**                |              |
 | 12:00 PM        | Welcome and Introductions                              | Jaclyn       |
-|                 | Slides:                                                |              |
+|                 | Slides: [Welcome and Introduction](slides/00 - Welcome and Introduction.pdf)   |              |
 | 12:30 PM        | Introduction to Git, Part 1                          | Stephanie    |
 |                 | Slides: [Introduction to Git, Part 1](slides/01 - Introduction to git, part 1.pdf)  |           |
 | 1:30 PM         | _Break_                                                |              |
