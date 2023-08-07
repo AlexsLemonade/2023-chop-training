@@ -13,17 +13,17 @@ All workshop sessions will take place over Zoom.
 | **2023-08-09**  | **Using `git` and GitHub for projects**                |              |
 | 12:00 PM        | Welcome and Introductions                              | Jaclyn       |
 |                 | Slides:                                                |              |
-| 12:30 PM        | Introduction to `git`, Part 1                          | Stephanie    |
-|                 | Slides:                                                |              |
+| 12:30 PM        | Introduction to Git, Part 1                          | Stephanie    |
+|                 | Slides: [Introduction to Git, Part 1](slides/01 - Introduction to git, part 1.pdf)  |           |
 | 1:30 PM         | _Break_                                                |              |
-| 1:45 PM         | Introduction to `git`, Part 2: Working with branches   | Stephanie    |
+| 1:45 PM         | Introduction to Git, Part 2: Working with branches   | Stephanie    |
 |                 | Slides:                                                |              |
 | 2:30 PM         | _Break_                                                |              |
 | 2:45 PM         | Introduction to analytical code review, Part 1         | Jaclyn       |
 |                 | Slides:                                                |              |
 | 3:15 PM         | Resolving merge conflicts                              | Stephanie    |
 | 3:45 PM         | _Break_                                                |              |
-| 4:00 PM         | `git` workflows and when to use them                   | Jaclyn       |
+| 4:00 PM         | Git workflows and when to use them                   | Jaclyn       |
 |                 | Slides:                                                |              |
 | 4:30 PM         | Tracking and planning work with GitHub                 | Jaclyn       |
 |                 | Slides:                                                |              |
