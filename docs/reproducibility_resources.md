@@ -17,7 +17,7 @@ Resources are listed by topic and in alphabetical order, not in order of recomme
 - [Git](#git)
 - [Code Review](#code-review)
 - [Project Organization](#project-organization)
-- [Resources in Reproducible Computing](#comprehensive-resources-in-reproducible-computing)
+- [Resources in Reproducible Computing](#resources-in-reproducible-computing)
 
 
 ## Git
@@ -37,8 +37,8 @@ Resources are listed by topic and in alphabetical order, not in order of recomme
 
 ## Code Review
 
-+ [Ch 5: "Engaging in Code Review - as an author"](https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics/engaging-in-code-review---as-an-author.html) from [_Advanced Reproducibility in Cancer Informatics_](https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics/) from [_Advanced Reproducibility in Cancer Informatics_](https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics/)
-+ [Ch 6: "Engaging in Code Review - as a reviewer"](https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics/engaging-in-code-review---as-a-reviewer.html)
++ [Ch 5: "Engaging in Code Review - as an author"](https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics/engaging-in-code-review---as-an-author.html) from [_Advanced Reproducibility in Cancer Informatics_](https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics/)
++ [Ch 6: "Engaging in Code Review - as a reviewer"](https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics/engaging-in-code-review---as-a-reviewer.html) from [_Advanced Reproducibility in Cancer Informatics_](https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics/)
 + [_Code Reviews Done Right: Your Missing Guideline_](https://quickbirdstudios.com/blog/code-review-best-practices-guidelines/) by Mischa Hildebrand
 + [_10 Methods for In-Depth Code Review_](https://jhall.io/posts/in-depth-code-review/) by Jonathan Hall
 + [_Best Practices for Peer Code Review_](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/)
@@ -66,7 +66,5 @@ Resources are listed by topic and in alphabetical order, not in order of recomme
 + [Reproducibility Standards for Machine Learning in the Life Sciences - nature](https://www.nature.com/articles/s41592-021-01256-7)
 + [Ten Simple Rules for Quick and Dirty Scientific Programming - _PLOS Computational Biology_](https://doi.org/10.1371/journal.pcbi.1008549)
 + [Ten Simple Rules for Reproducible Computational Research - _PLOS Computational Biology_](https://doi.org/10.1371/journal.pcbi.1003285)
-+ [Toronto Data Workshop - Rohan Alexander](https://rohanalexander.com/toronto_data_workshop.html)
-+ [Toronto Workshop on Reproducibility - Rohan Alexander](https://rohanalexander.com/reproducibility.html)
 + [protocols.io](https://www.protocols.io/)
 
