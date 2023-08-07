@@ -20,7 +20,7 @@ Before the live demo, the co-instructor (i.e., instructor who is _not_ leading t
     * Need to set appropriate `ggplot` theme for the UMAP (no axis ticks, labels)
   * File-level comment
     * Need to include more markdown text contextualizing code chunks
-* Check out branch locally to run the code, during which package bugs are caught:
+* Check out branch locally to run the code, during which package management problems are caught:
   * `{umap}` was not loaded into environment
   * `{patchwork}` was used, but the reviewer does not have the package installed
 * Leave overall review starting with some form of "Thanks for doing this!"
