@@ -44,5 +44,5 @@ All workshop sessions will take place over Zoom.
 |                 | Slides: [Pull request reviewer responsibilities](slides/10 - Pull request reviewer responsibilities.pdf)                                               |              |
 | 3:30 PM         | _Break_                                                |              |
 | 3:45 PM         | Leaving and responding to code review               | Stephanie    |
-|                 | Slides: [Leaving and responding to review.pdf](slides/12 - Leaving and responding to review.pdf)  |              |
+|                 | Slides: [Leaving and responding to review](slides/12 - Leaving and responding to review.pdf)  |              |
 
