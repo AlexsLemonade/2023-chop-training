@@ -74,7 +74,7 @@ filter(year == 2008) |>
 group_by(species, island)
 ```
 * File quick 'n dirty PR to `main`, and the PR will tell us that we have merge conflict.
-* Return to local repository (not in browser), and run `git merge` to "get" the conflict locally
+* Return to local repository (not in browser), and run `git merge main` to "get" the conflict locally
 * Open VS Code to resolve the conflict
   * Open the _script_ in VS Code and explain the merge conflict view
   * Explain that "theirs" = "Incoming change" and "ours" = "Current change"
