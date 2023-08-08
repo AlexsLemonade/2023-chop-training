@@ -67,17 +67,18 @@ This merge conflict will focus on changes to `scripts/penguins_calculate_mass.R`
 * Modify the script to induce a conflict, run the script to produce an updated TSV, and `add/commit/push` all changes.
 ```r
 # original code
-group_by(species, island)
+group_by(species)
 
 # new code
 filter(year == 2008) |>
 group_by(species, island)
 ```
 * File quick 'n dirty PR to `main`, and the PR will tell us that we have merge conflict.
-* Return to local repository (not in browser), and open Resolve the conflict in VS Code
+* Return to local repository (not in browser), and run `git merge` to "get" the conflict locally
+* Open VS Code to resolve the conflict
   * Open the _script_ in VS Code and explain the merge conflict view
   * Explain that "theirs" = "Incoming change" and "ours" = "Current change"
-  * Click the handy "Accept current change" text
+  * Click the handy "Accept Current Change" text
 * Open the TSV file in VS Code and look at the conflict
   * Explain that we could, for this simple example, choose "ours"/"theirs", but it's easy to get confused since it is not immediately obvious from the data itself which is which (same columns & types).
   * This confusion would be even greater for larger/more realistic data files.
@@ -93,7 +94,7 @@ A bonus benefit of this step is extra confirmation that you have indeed resolved
 This merge conflict will focus on changes to `scripts/plot_penguins_histogram.R`.
 
 * Checkout the third branch: `git switch code-mod-3`
-  * Remind everyone via `git log` that its base remains `main`  _before_ `code-mod-1` was merged in
+  * Remind everyone via `git log` that its base remains `main` _before_ `code-mod-1` was merged in
 * Modify the script to induce a conflict, run it to produce an updated PNG, and `add/commit` all changes (`push` is less critical for this demo; doesn't matter if that is skipped)
 ```r
 # original code
