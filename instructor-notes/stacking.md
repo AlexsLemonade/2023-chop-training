@@ -57,4 +57,4 @@ This means we need to divvy up this code up into two separate branches.
 * `git cherry-pick` the first commit into this branch
 * Return to `main` and create/enter second branch (`git switch -c <username>/<issue #>-penguins-scatterplot`), and cherry-pick the second two commits
 * Now we have two branches which are _sort of_ stacked (show with `git branch -a`), at least in the scope of their work, and a third which encompasses all work for posterity, which we don't delete just in case
-* The two issue-specific branches can be filed to the `upstream` repo's `main` branch, with sufficient context in  each PR to help reviewers understand how the PRs are related
+* The two issue-specific branches can be filed to the `upstream` repo's `main` branch, with sufficient context in each PR to help reviewers understand how the PRs are related
