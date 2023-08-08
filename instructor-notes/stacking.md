@@ -30,7 +30,7 @@ This first part of the demonstration is based around one issue with two related 
   * Note that the base has changed to `main` now that the remote branch was deleted
   * Also note that the branch is no longer up-to-date with `main`.
   Explain two ways to handle this (but ultimately do the first one):
-    * Within GitHub, merge `main` into `<username>/<issue #>-build-penguin-model`, and then pull down
+    * Within GitHub, merge `main` into `<username>/<issue #>-build-penguin-model`
     * Within your local repo, checkout `main`, pull down, checkout `<username>/<issue #>-build-penguin-model`, merge on command line, and then push.
 * The second PR can now be approved and merged into `main`.
 
@@ -45,7 +45,7 @@ The second part of the demonstration is based around a different issue with two 
   * If you want the full project history including reviews to be present in the `upstream` repository, this will not meet your needs
 * Brief detour back to slides to show a schematic of what we are going to do in this demo & relationship among branches
 * Navigate via command line to the _fork_ of the repo, and ensure the `main` branch is up-to-date with `upstream/main`
-* Create and enter branch off of `main`: `<username>/<1st issue #>-<2nd issue #>-combined`
+* Create and enter branch off of `main`: `<username>/<issue #>-full-work`
 * Perform three `add/commit` cycles (can `push` as well):
   * First, add the plotting function to the `utils.R` script
   * Second, use the function in the `model-penguins.R` script
