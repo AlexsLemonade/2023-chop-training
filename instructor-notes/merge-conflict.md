@@ -104,13 +104,14 @@ geom_histogram(bins = n_bins, color = "deepskyblue1", fill = "olivedrab3")
 ```
 * Run `git merge main` via command line, which will inform us we have a merge conflict.
 This approach shows a different way that one can discover a merge conflict, v.s. the last example when it was discovered by filing a PR.
-* Note that we cannot directly compare "ours"/"theirs" in a PNG, so the only way to resolve that conflict is by fixing the code and re-generating the PNG.
+* Note that we cannot directly compare "ours"/"theirs" in a PNG by just opening the file, but GitKraken can help
 * Resolve the R script conflict in GitKraken.
   * Open the repository in GitKraken and show the conflict view
   * Explain that "theirs" is on the top left, and "ours" is on the top right
   * Fix the conflict by ensuring only "ours" is in the output frame below
-  * Note that we can commit to resolve the merge conflict within GitKraken directly, but first we need to re-run the fixed script to update the PNG with the latest code, and ensure that is part of the resolution.
-* Re-run script to fix PNG, and now we can `commit` the conflict fix and conclude the merge.
+* Resolve the PNG conflict.
+GitKraken will allow us to choose which PNG, but we might prefer to re-run the script anyways to be sure the PNG is correct.
+* Commit within GitKraken directly to conclude the merge
 
 ### Final punchlines of demo
 
