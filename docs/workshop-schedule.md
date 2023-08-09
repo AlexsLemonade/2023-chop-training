@@ -39,9 +39,9 @@ All workshop sessions will take place over Zoom.
 |                 | Slides: [Pull request author responsibilities](slides/09 - Pull request author responsibilities.pdf)                                                |              |
 | 2:15 PM         | _Break_                                                |              |
 | 2:30 PM         | Ensuring reasonable scopes for your PRs                     | Stephanie    |
-|                 | Slides: [Ensuring reasonable PR scope](slides/11 - Ensuring reasonable PR scope.pdf)     |       |
+|                 | Slides: [Ensuring reasonable PR scope](slides/10 - Ensuring reasonable PR scope.pdf)     |       |
 | 3:15 PM         | Pull request reviewer responsibilities                 | Jaclyn       |
-|                 | Slides: [Pull request reviewer responsibilities](slides/10 - Pull request reviewer responsibilities.pdf)                                               |              |
+|                 | Slides: [Pull request reviewer responsibilities](slides/11 - Pull request reviewer responsibilities.pdf)                                               |              |
 | 3:30 PM         | _Break_                                                |              |
 | 3:45 PM         | Leaving and responding to code review               | Stephanie    |
 |                 | Slides: [Leaving and responding to review](slides/12 - Leaving and responding to review.pdf)  |              |
