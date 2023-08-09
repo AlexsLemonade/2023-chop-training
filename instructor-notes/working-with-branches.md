@@ -70,6 +70,6 @@ This further demonstrates the benefit of running `git status` frequently.
 * File a quick PR to `main`
   * Co-instructor will approve this PR in the background and merge into `main`, allowing this script to be used later in the merge conflict demonstration
 * Switch back to `main` and...
-  * Run `git status` to see the commit remains (cherry pick will duplicate, which we don't always want!), but we'd like to remove it
-  * Run `git reset --hard <last commit to keep>` to remove the commit that we'd like to not be in our local `main`.
+  * Run `git status` to see the commits remain (cherry pick will duplicate, which we don't always want!), but we'd like to remove them
+  * Run `git reset --hard <last commit to keep>` to remove the commits that we don't want to be in our local `main`.
   Explain that `--hard` is going to really be _hard_, and may not always be what you want!
