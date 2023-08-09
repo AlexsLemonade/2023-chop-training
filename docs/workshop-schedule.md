@@ -22,6 +22,7 @@ All workshop sessions will take place over Zoom.
 | 2:45 PM         | Introduction to analytical code review, Part 1         | Jaclyn       |
 |                 | Slides: [Pull request basics](slides/03 - Pull Request Basics.pdf)                                               |              |
 | 3:15 PM         | Resolving merge conflicts                              | Stephanie    |
+|                 | [Live demonstration diagram](slides/Live demonstration Merge Conflict Diagram.pdf)
 | 3:45 PM         | _Break_                                                |              |
 | 4:00 PM         | Git workflows and when to use them                   | Jaclyn       |
 |                 | Slides: [Git workflows](slides/04 - Git Workflows.pdf)     |       |
