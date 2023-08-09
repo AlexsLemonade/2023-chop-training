@@ -66,7 +66,9 @@ This further demonstrates the benefit of running `git status` frequently.
 * Enter branch 4: `git switch <username>/<issue #>-penguins-species-mass`
 * `git cherry-pick <hash>`
 * Behold the updated `git status` in this branch.
-* In the interest of time, can either run the script and add/commit the TSV file, or move on.
+* Run the script and add/commit the TSV file
+* File a quick PR to `main`
+  * Co-instructor will approve this PR in the background and merge into `main`, allowing this script to be used later in the merge conflict demonstration
 * Switch back to `main` and...
   * Run `git status` to see the commit remains (cherry pick will duplicate, which we don't always want!), but we'd like to remove it
   * Run `git reset --hard <last commit to keep>` to remove the commit that we'd like to not be in our local `main`.
