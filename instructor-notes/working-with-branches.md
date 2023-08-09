@@ -58,16 +58,18 @@ This further demonstrates the benefit of running `git status` frequently.
 > Bonus: Experience the benefits of branch protection rules
 
 * Switch back to `main` branch, but do _not_ switch into the `<username>/<issue #>-penguins-species-mass` branch
-* `add/commit/push` the script
-  * `git push` should fail due to branch protections, which causes us to "realize" we have worked in the wrong branch.
+* `add/commit` the script
+* Run the script & `add/commit` the result TSV
+* Run `git push`, which should fail due to branch protections, which causes us to "realize" we have worked in the wrong branch.
   (But caution: If you are in a fork, you may need to set up your own protections!)
   Therefore, we need to cherry pick this commit into the proper branch
- * Identify the commit hash we'd like to cherry pick out of this branch using `git log` for help
+ * Identify the commit hashes we'd like to cherry pick out of this branch using `git log` for help
 * Enter branch 4: `git switch <username>/<issue #>-penguins-species-mass`
 * `git cherry-pick <hash>`
 * Behold the updated `git status` in this branch.
-* In the interest of time, can either run the script and add/commit the TSV file, or move on.
+* File a quick PR to `main`
+  * Co-instructor will approve this PR in the background and merge into `main`, allowing this script to be used later in the merge conflict demonstration
 * Switch back to `main` and...
-  * Run `git status` to see the commit remains (cherry pick will duplicate, which we don't always want!), but we'd like to remove it
-  * Run `git reset --hard <last commit to keep>` to remove the commit that we'd like to not be in our local `main`.
+  * Run `git status` to see the commits remain (cherry pick will duplicate, which we don't always want!), but we'd like to remove them
+  * Run `git reset --hard <last commit to keep>` to remove the commits that we don't want to be in our local `main`.
   Explain that `--hard` is going to really be _hard_, and may not always be what you want!
