@@ -43,10 +43,6 @@ Depending on the given workshop audience, this fork can be set up in advance of 
 >   * Task 1: Add a function to the `utils.R` script that, given a data frame and two numeric variables, exports a scatterplot
 >   * Task 2: Modify the script `model-penguins.R` to make and export a scatterplot of variables used in the regression
 
-The second part of the demonstration is based around a different issue with two related tasks:
-* Task 1: Add a function to the `utils.R` script that, given a data frame and two numeric variables, exports a scatterplot
-* Task 2: Modify the script `model-penguins.R` to make and export a scatterplot of variables used in the regression
-
 * Explain again that stacking won't work well, _unless_ you want to have a review performed in your fork.
   * If you want the full project history including reviews to be present in the `upstream` repository, this will not meet your needs
 * Brief detour back to slides to show a schematic of what we are going to do in this demo & relationship among branches
