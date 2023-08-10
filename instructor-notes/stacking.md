@@ -9,9 +9,9 @@ There are no new `git` commands that need to be introduced for this live demo.
 
 ### Part 1: How to stack branches
 
-This first part of the demonstration is based around one issue with two related tasks:
-* Task 1: Write a `utils.R` script with a function that, given a data frame and two numeric variables, builds a regression model and returns the `broom::tidy()` output
-* Task 2: Write a script called `model-penguins.R` that sources `utils.R`, builds a model from penguin variables, and exports results to a TSV
+> This first part of the demonstration is based around one issue with two related tasks:
+>   * Task 1: Write a `utils.R` script with a function that, given a data frame and two numeric variables, builds a regression model and returns the `broom::tidy()` output
+>   * Task 2: Write a script called `model-penguins.R` that sources `utils.R`, builds a model from penguin variables, and exports results to a TSV
 
 * First, run `git pull` in `main` to ensure I am synced up before I start new work
 * Create and switch to first branch: `git switch -c <username>/<issue #>-utils-linear-model`
@@ -31,15 +31,15 @@ This first part of the demonstration is based around one issue with two related 
   * Also note that the branch is no longer up-to-date with `main`.
   Explain two ways to handle this (but ultimately do the first one):
     * Within GitHub, merge `main` into `<username>/<issue #>-build-penguin-model`
-    * Within your local repo, checkout `main`, pull down, checkout `<username>/<issue #>-build-penguin-model`, merge on command line, and then push.
+    * Locally, you can checkout `main`, pull down, checkout `<username>/<issue #>-build-penguin-model`, merge on command line, and then push.
 * The second PR can now be approved and merged into `main`.
 
 
 ### Part 2: How to approximate stacking when you are working in a fork
 
-The second part of the demonstration is based around a different issue with two related tasks:
-* Task 1: Add a function to the `utils.R` script that, given a data frame and two numeric variables, exports a scatterplot
-* Task 2: Modify the script `model-penguins.R` to make and export a scatterplot of variables used in the regression
+> The second part of the demonstration is based around a different issue with two related tasks:
+>   * Task 1: Add a function to the `utils.R` script that, given a data frame and two numeric variables, exports a scatterplot
+>   * Task 2: Modify the script `model-penguins.R` to make and export a scatterplot of variables used in the regression
 
 * Explain again that stacking won't work well, _unless_ you want to have a review performed in your fork.
   * If you want the full project history including reviews to be present in the `upstream` repository, this will not meet your needs
