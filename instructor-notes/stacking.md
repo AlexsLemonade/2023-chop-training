@@ -6,7 +6,7 @@ Before the live demo, slides will have covered only the concept of `git` branch 
 There are no new `git` commands that need to be introduced for this live demo.
 
 Note that the second section of the demo should be conducted from a _fork_ of the demo repository.
-Depending on the given workshop audience, this fork can be set up in advance of the workshop, or you can show creating and cloning the fork during the workshop, which includes setting the upstream repository: `git remote set-url upstream git@github.com:<upstream account>/<upstream repo>`.
+Depending on the given workshop audience, this fork can be set up in advance of the workshop, or you can show creating and cloning the fork during the workshop, which includes setting the upstream repository: `git remote add upstream git@github.com:<upstream account>/<upstream repo>`.
 ## Live demonstration
 
 ### Part 1: How to stack branches
