@@ -35,6 +35,7 @@ Depending on the given workshop audience, this fork can be set up in advance of 
     * Within GitHub, merge `main` into `<username>/<issue #>-build-penguin-model`
     * Locally, you can checkout `main`, pull down, checkout `<username>/<issue #>-build-penguin-model`, merge on command line, and then push.
 * The second PR can now be approved and merged into `main`.
+Ensure this is completed, since this code is required for part 2 of this demo.
 
 
 ### Part 2: How to approximate stacking when you are working in a fork

@@ -19,11 +19,12 @@ Before the live demo, the co-instructor (i.e., instructor who is _not_ leading t
     * Need to set a seed
     * Need to set appropriate `ggplot` theme for the UMAP (no axis ticks, labels)
   * File-level comment
-    * Need to include more markdown text contextualizing code chunks
+    * Need to include more markdown text contextualizing code chunks.
+    This could additionally be included in the overall review comment as a major point to address.
 * Check out branch locally to run the code, during which package management problems are caught:
   * `{umap}` was not loaded into environment
   * `{patchwork}` was used, but the reviewer does not have the package installed
 * Leave overall review starting with some form of "Thanks for doing this!"
   * Overall review should include comment that `{umap}` package needs to be in the environment, either via `library()` or using `::`
   * Also suggest that author should open up a separate issue to use `{renv}` in the project to ensure environment consistency given that reviewer did not have `{patchwork}` dependency
-* Publish review as "Request changes"
+* Publish review as "Comment," but discuss consequences if "Request changes" were used instead.
